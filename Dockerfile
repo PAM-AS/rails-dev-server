@@ -11,5 +11,6 @@ ADD listener.rb /listener.rb
 ADD restart-thin.sh /restart-thin.sh
 
 EXPOSE 80
+EXPOSE 2000
 
 CMD /listener.rb
