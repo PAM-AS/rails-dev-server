@@ -1,4 +1,5 @@
-#!/usr/bin/sh
+#!/bin/sh
 cd /application
 thin stop
-thin start -d -p 80
+bundle install
+thin start -d -a 0.0.0.0 -p 80
